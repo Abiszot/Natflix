@@ -1,0 +1,32 @@
+@media screen and (max-width: 460px) {
+  .card {
+    max-width: 343px;
+    width: 100%;
+    min-height: 537px;
+  }
+  .card__image {
+    max-width: 327px;
+    min-height: auto;
+    margin: 0 auto;
+  }
+  .card__episode-name {
+    margin: 4px 0 0px 0px;
+  }
+  .card__middle {
+    max-width: 320px;
+    width: 100%;
+  }
+  .card__vector {
+    max-width: 311px;
+    width: 100%;
+    min-height: 1.5px;
+    margin: 18px 0 0 0;
+  }
+  .card__bottom {
+    margin: 2px 0 0 32px;
+  }
+  .card__content {
+    margin: 0 0 0 11px;
+    letter-spacing: -0.3px;
+  }
+}/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,98 @@
+#home-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1E1E1E;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+  margin: 10px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1a1a1a;
+  max-width: 414px;
+  width: 100%;
+  min-height: 607px;
+  border-radius: 24px;
+}
+
+.card__image {
+  max-width: 405px;
+  width: 100%;
+  min-height: 405px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.card__episode-name {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin: 4px 0 0px 28px;
+  line-height: 24px;
+  line-height: 100%;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+}
+
+.card__middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 360px;
+  width: 100%;
+  padding: 0 0 15px 0;
+  margin: 12px 0 0 0;
+  letter-spacing: -0.3px;
+}
+
+.card__title {
+  color: #8D8D8D;
+  margin: 2.5px 0 0 5px;
+  font-size: 16px;
+}
+
+.card__time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8D8D8D;
+  margin: 2px 0 0 0px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+.card__time .card__clock {
+  width: 20px;
+  height: 20px;
+  margin: 1px 7px 4px 0;
+}/*# sourceMappingURL=card-top.css.map */
